@@ -5,13 +5,9 @@
 
     <default revision="master" remote="github" sync-j="8"/>
 
-    <project name="JobCatcher.git" remote="github" path="job/jobcatcher" revision="unstable">
+    <project name="JobCatcher.git" remote="github" path="external/jobcatcher" revision="unstable">
         <copyfile src="README.md" dest="README.md" />
     </project>
-
-    <project name="emploi.git" remote="github" path="job/emploi" />
-    <project name="SHOUTcast-Recorder.git" remote="github" path="dev/SHOUTcast-Recorder" />
-    <project name="adbd.git" remote="github" path="dev/adbd" revision="gingerbread-adbd" />
-    <project name="buildroot.git" remote="buildroot" path="dev/buildroot" />
+    <project name="buildroot.git" remote="buildroot" path="buildroot" />
 
 </manifest>
